@@ -1,0 +1,23 @@
+{
+    "name": "whopa/myotp",
+    "description": "Integrate OTP system in your web application",
+    "authors": [
+        {
+            "name": "Federico Ramato",
+            "email": "framato@whopa.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Whopa\\Myotp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
